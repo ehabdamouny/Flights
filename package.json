@@ -1,0 +1,32 @@
+{
+  "name": "assignment9---ex2-express-mongo-heroku-ehabdamouny",
+  "version": "1.0.0",
+  "description": "express mongo heroku assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ehabdamouny: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@github.com/DCS-Shenkar-2022/assignment9---ex2-express-mongo-heroku-ehabdamouny.git"
+  },
+  "author": "Ehab Damouny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCS-Shenkar-2022/assignment9---ex2-express-mongo-heroku-ehabdamouny/issues"
+  },
+  "homepage": "https://github.com/DCS-Shenkar-2022/assignment9---ex2-express-mongo-heroku-ehabdamouny#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
